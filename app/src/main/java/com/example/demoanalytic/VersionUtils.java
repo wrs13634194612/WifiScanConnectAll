@@ -1,4 +1,4 @@
-package com.example.demoanalytic.utils;
+package com.example.demoanalytic;
 
 import android.os.Build;
 

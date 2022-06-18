@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiDisconnect;
+package com.example.demoanalytic;
 
 public enum DisconnectionErrorCode {
     COULD_NOT_GET_WIFI_MANAGER,

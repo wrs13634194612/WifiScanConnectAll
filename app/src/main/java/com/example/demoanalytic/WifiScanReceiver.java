@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiScan;
+package com.example.demoanalytic;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

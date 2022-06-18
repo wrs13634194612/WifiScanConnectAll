@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiDisconnect;
+package com.example.demoanalytic;
 
 
 import android.support.annotation.NonNull;

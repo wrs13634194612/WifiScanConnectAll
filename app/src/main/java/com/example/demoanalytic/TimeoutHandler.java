@@ -1,16 +1,14 @@
-package com.example.demoanalytic.wifiConnect;
+package com.example.demoanalytic;
 
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.support.annotation.NonNull;
 
-import com.example.demoanalytic.WeakHandler;
-
 import static com.example.demoanalytic.ConnectorUtils.isAlreadyConnected;
 import static com.example.demoanalytic.ConnectorUtils.reEnableNetworkIfPossible;
 import static com.example.demoanalytic.WifiUtils.wifiLog;
-import static com.example.demoanalytic.utils.Elvis.of;
-import static com.example.demoanalytic.utils.VersionUtils.isAndroidQOrLater;
+import static com.example.demoanalytic.Elvis.of;
+import static com.example.demoanalytic.VersionUtils.isAndroidQOrLater;
 
 public class TimeoutHandler {
     private final WifiManager mWifiManager;

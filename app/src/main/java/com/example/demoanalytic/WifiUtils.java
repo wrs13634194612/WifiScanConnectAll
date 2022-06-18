@@ -14,9 +14,9 @@ import static com.example.demoanalytic.ConnectorUtils.reenableAllHotspots;
 import static com.example.demoanalytic.ConnectorUtils.registerReceiver;
 import static com.example.demoanalytic.ConnectorUtils.removeWifi;
 import static com.example.demoanalytic.ConnectorUtils.unregisterReceiver;
-import static com.example.demoanalytic.utils.VersionUtils.isAndroidQOrLater;
-import static  com.example.demoanalytic.utils.Elvis.of;
-import static com.example.demoanalytic.utils.VersionUtils.isLollipopOrLater;
+import static com.example.demoanalytic.VersionUtils.isAndroidQOrLater;
+import static  com.example.demoanalytic.Elvis.of;
+import static com.example.demoanalytic.VersionUtils.isLollipopOrLater;
 
 
 import android.annotation.SuppressLint;
@@ -34,25 +34,6 @@ import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.widget.Toast;
 
-
-import com.example.demoanalytic.wifiConnect.ConnectionErrorCode;
-import com.example.demoanalytic.wifiConnect.ConnectionScanResultsListener;
-import com.example.demoanalytic.wifiConnect.ConnectionSuccessListener;
-import com.example.demoanalytic.wifiConnect.DisconnectCallbackHolder;
-import com.example.demoanalytic.wifiConnect.TimeoutHandler;
-import com.example.demoanalytic.wifiConnect.WifiConnectionCallback;
-import com.example.demoanalytic.wifiConnect.WifiConnectionReceiver;
-import com.example.demoanalytic.wifiDisconnect.DisconnectionErrorCode;
-import com.example.demoanalytic.wifiDisconnect.DisconnectionSuccessListener;
-import com.example.demoanalytic.wifiRemove.RemoveErrorCode;
-import com.example.demoanalytic.wifiRemove.RemoveSuccessListener;
-import com.example.demoanalytic.wifiScan.ScanResultsListener;
-import com.example.demoanalytic.wifiScan.WifiScanCallback;
-import com.example.demoanalytic.wifiScan.WifiScanReceiver;
-import com.example.demoanalytic.wifiState.WifiStateCallback;
-import com.example.demoanalytic.wifiState.WifiStateListener;
-import com.example.demoanalytic.wifiState.WifiStateReceiver;
-import com.example.demoanalytic.wifiWps.ConnectionWpsListener;
 
 import org.jetbrains.annotations.NotNull;
 

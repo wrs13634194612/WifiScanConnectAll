@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiConnect;
+package com.example.demoanalytic;
 
 /**
  * Errors that can occur when trying to connect to a wifi network.

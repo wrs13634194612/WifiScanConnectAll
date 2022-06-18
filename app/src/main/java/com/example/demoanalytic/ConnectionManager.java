@@ -8,14 +8,6 @@ package com.example.demoanalytic;
         import android.widget.Toast;
 
 
-        import com.example.demoanalytic.wifiConnect.ConnectionErrorCode;
-        import com.example.demoanalytic.wifiConnect.ConnectionSuccessListener;
-        import com.example.demoanalytic.wifiDisconnect.DisconnectionErrorCode;
-        import com.example.demoanalytic.wifiDisconnect.DisconnectionSuccessListener;
-        import com.example.demoanalytic.wifiRemove.RemoveErrorCode;
-        import com.example.demoanalytic.wifiRemove.RemoveSuccessListener;
-        import com.example.demoanalytic.wifiWps.ConnectionWpsListener;
-
         import java.util.List;
 
 public class ConnectionManager {

@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiConnect;
+package com.example.demoanalytic;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.net.wifi.SupplicantState;
 import android.net.wifi.WifiManager;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import static  com.example.demoanalytic.utils.Elvis.of;
+import static  com.example.demoanalytic.Elvis.of;
 
 
 import java.util.Objects;
@@ -17,7 +17,7 @@ import java.util.Objects;
 import static com.example.demoanalytic.ConnectorUtils.isAlreadyConnected;
 import static com.example.demoanalytic.ConnectorUtils.reEnableNetworkIfPossible;
 import static com.example.demoanalytic.WifiUtils.wifiLog;
-import static com.example.demoanalytic.utils.VersionUtils.isAndroidQOrLater;
+import static com.example.demoanalytic.VersionUtils.isAndroidQOrLater;
 
 
 public final class WifiConnectionReceiver extends BroadcastReceiver {

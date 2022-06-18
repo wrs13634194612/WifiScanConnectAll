@@ -3,13 +3,13 @@ package com.example.demoanalytic;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.ACCESS_WIFI_STATE;
 import static com.example.demoanalytic.WifiUtils.wifiLog;
-import static com.example.demoanalytic.utils.SSIDUtils.convertToQuotedString;
-import static com.example.demoanalytic.utils.VersionUtils.isAndroidQOrLater;
-import static com.example.demoanalytic.utils.VersionUtils.isJellyBeanOrLater;
-import static com.example.demoanalytic.utils.VersionUtils.isLollipopOrLater;
-import static com.example.demoanalytic.utils.VersionUtils.isMarshmallowOrLater;
+import static com.example.demoanalytic.SSIDUtils.convertToQuotedString;
+import static com.example.demoanalytic.VersionUtils.isAndroidQOrLater;
+import static com.example.demoanalytic.VersionUtils.isJellyBeanOrLater;
+import static com.example.demoanalytic.VersionUtils.isLollipopOrLater;
+import static com.example.demoanalytic.VersionUtils.isMarshmallowOrLater;
 
-import static  com.example.demoanalytic.utils.Elvis.of;
+import static  com.example.demoanalytic.Elvis.of;
 
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
@@ -38,12 +38,6 @@ import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.annotation.RequiresPermission;
 
-import com.example.demoanalytic.utils.SSIDUtils;
-import com.example.demoanalytic.utils.VersionUtils;
-import com.example.demoanalytic.wifiConnect.ConnectionErrorCode;
-import com.example.demoanalytic.wifiConnect.DisconnectCallbackHolder;
-import com.example.demoanalytic.wifiConnect.WifiConnectionCallback;
-import com.example.demoanalytic.wifiWps.ConnectionWpsListener;
 import com.thanosfisherman.wifiutils.utils.VersionUtil;
 
 import java.util.Collections;

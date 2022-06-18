@@ -19,7 +19,7 @@ import java.util.Objects;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.ACCESS_WIFI_STATE;
 import static com.example.demoanalytic.WifiUtils.wifiLog;
-import static com.example.demoanalytic.utils.SSIDUtils.convertToQuotedString;
+import static com.example.demoanalytic.SSIDUtils.convertToQuotedString;
 
 final class ConfigSecurities {
     static final String SECURITY_NONE = "OPEN";

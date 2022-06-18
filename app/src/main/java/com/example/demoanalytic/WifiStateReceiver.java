@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiState;
+package com.example.demoanalytic;
 
 
 import android.content.BroadcastReceiver;

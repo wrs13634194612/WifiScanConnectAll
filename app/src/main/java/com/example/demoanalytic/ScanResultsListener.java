@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiScan;
+package com.example.demoanalytic;
 
 
 import android.net.wifi.ScanResult;

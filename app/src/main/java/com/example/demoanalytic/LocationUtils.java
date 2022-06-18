@@ -7,7 +7,7 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import static  com.example.demoanalytic.utils.Elvis.of;
+import static  com.example.demoanalytic.Elvis.of;
 
 public class LocationUtils {
     private static final String TAG = LocationUtils.class.getSimpleName();

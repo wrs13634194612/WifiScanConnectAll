@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiRemove;
+package com.example.demoanalytic;
 
 
 import android.support.annotation.NonNull;

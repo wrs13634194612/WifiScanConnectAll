@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiRemove;
+package com.example.demoanalytic;
 
 public enum RemoveErrorCode {
     COULD_NOT_GET_WIFI_MANAGER,

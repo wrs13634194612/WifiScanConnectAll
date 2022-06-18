@@ -1,4 +1,4 @@
-package com.example.demoanalytic.wifiState;
+package com.example.demoanalytic;
 
 public interface WifiStateListener {
     void isSuccess(boolean isSuccess);

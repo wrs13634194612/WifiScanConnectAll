@@ -5,14 +5,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 
-import com.example.demoanalytic.wifiConnect.ConnectionScanResultsListener;
-import com.example.demoanalytic.wifiConnect.ConnectionSuccessListener;
-import com.example.demoanalytic.wifiDisconnect.DisconnectionSuccessListener;
-import com.example.demoanalytic.wifiRemove.RemoveSuccessListener;
-import com.example.demoanalytic.wifiScan.ScanResultsListener;
-import com.example.demoanalytic.wifiState.WifiStateListener;
-import com.example.demoanalytic.wifiWps.ConnectionWpsListener;
-
 
 public interface WifiConnectorBuilder {
     void start();
